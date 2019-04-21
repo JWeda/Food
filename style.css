@@ -3,7 +3,33 @@
 }
 
 body {
-    background-color: blue;
     margin: 0;
     padding: 0;
+    background: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
+ .overlay-main {
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 4.16667%;
+    justify-content: space-between;
+    z-index: 2;
+    font-size: 150px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    left: 0;
+ }
+
+ .overlay-to-top {
+     margin-bottom: 50vh;
+ }
+
+ .overlay-to-bottom {
+     margin-top: 50vh;
+ }
