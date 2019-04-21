@@ -1,28 +1,48 @@
 .scrolling-bg-main {
-    width: 33%;
-    height: 200vh;
+    height: 400vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    animation:scrolling-animation 30s 5s infinite normal ease;
+    animation:scrolling-animation 60s infinite normal;
     color:red;
-    
+    align-content: baseline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.column-container {
+    text-align: center;
 }
 
 .gallery-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10%;
+    max-width: 970px;
+    width: 100%;
+    margin: auto;
 }
 
 .gallery-image-wrapper {
-    width: 33%;
+    width: 100%;
 }
 
 @keyframes scrolling-animation {
     0% {
+    opacity: 0;
     transform: translate(0%, -100%);
     }
 
+    15%{
+        opacity: 1;
+    }
+
+    85% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 0;
+    }
     100% {
         transform: translate(0%, 50%);
     }
