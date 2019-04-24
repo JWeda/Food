@@ -1,0 +1,47 @@
+.to-top {
+   animation: to-top 5s;
+   margin-top: 50vh;
+}
+
+.to-bottom {
+    animation: to-bottom 5s;
+    margin-bottom: 50vh;
+}
+
+.font-weight {
+    animation: font-weight 2s;
+    font-weight: 400;
+}
+
+@keyframes to-top{
+    0% { 
+        margin-bottom: 50vh;
+      }
+   
+    100% { 
+    margin-bottom: 0;
+  }
+
+ 
+}
+
+@keyframes to-bottom {
+    0% {
+        margin-top: 50vh;
+    }
+   
+    100% {
+        margin-top: 0;
+    }
+   
+}
+
+@keyframes font-weight {
+    0% {
+        font-weight: 700;
+    }
+
+    100% {
+        font-weight: 400;
+    }
+}

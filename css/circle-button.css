@@ -1,0 +1,8 @@
+.circle {
+    cx: 56;
+    cy: 56;
+    r: 54;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 4;
+    fill: none;
+}

@@ -8,6 +8,7 @@ body {
     background: black;
     overflow-x: hidden;
     overflow-y: hidden;
+   
 }
  .overlay-main {
     color: white;
@@ -18,18 +19,10 @@ body {
     padding: 4.16667%;
     justify-content: space-between;
     z-index: 2;
-    font-size: 150px;
+    font-size: 17.5vw;
     font-family: 'Playfair Display', serif;
-    font-weight: 400;
     position: absolute;
     top: 0;
     left: 0;
  }
 
- .overlay-to-top {
-     margin-bottom: 50vh;
- }
-
- .overlay-to-bottom {
-     margin-top: 50vh;
- }

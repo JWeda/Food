@@ -9,6 +9,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    opacity: 0;
 }
 
 .flipped-direction {
@@ -20,22 +21,22 @@
 }
 
 .delay-1 {
-    animation-delay: 2s;
-}
-
-.delay-2 {
     animation-delay: 5s;
 }
 
-.delay-3 {
-    animation-delay: 9s;
+.delay-2 {
+    animation-delay: 8s;
 }
 
+.delay-3 {
+
+    animation-delay: 3s;
+}
 .gallery-container {
     display: grid;
     grid-template-columns: 2fr 3fr 2fr;
     grid-column-gap: 10%;
-    max-width: 970px;
+    max-width: 1140px;
     width: 100%;
     margin: auto;
 }
